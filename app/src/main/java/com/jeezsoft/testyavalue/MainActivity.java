@@ -30,6 +30,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 refreshCurrency();
+
             }
         });
         t.start();
@@ -69,7 +70,6 @@ public class MainActivity extends Activity {
                     eventType = xpp.next();
                 }
             }
-
 
 
         } catch (MalformedURLException e) {
